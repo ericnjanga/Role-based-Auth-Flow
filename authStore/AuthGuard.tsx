@@ -26,7 +26,7 @@ type Props = {
  * }
  */
 async function refreshAccessToken(_refreshToken: string) {
-  // TODO: Implement backend call: POST /refresh { refreshToken }
+  // TODO: Implement backend call: POST /api/refresh { refreshToken }
   throw new Error("Not implemented");
 }
 

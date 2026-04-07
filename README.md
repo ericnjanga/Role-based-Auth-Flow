@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## About this app
+
+This app cotains:
+
+[x] App router (Next.js routes)
+[x] Auth Store (auth state management with Zustand)
+[x] Protected routes
+
 ## Getting Started
 
 First, run the development server:

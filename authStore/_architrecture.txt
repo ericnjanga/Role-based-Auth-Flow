@@ -1,0 +1,10 @@
+/**
+ * Auth store goals
+ * -------------------
+ * The store should:
+ * - Be the single source of truth for auth/session state
+ * - Manage the token lifecycle (access + refresh)
+ * - Expose role/permission checks as derived selectors/utilities
+ * - Support rehydration from storage without UI flicker
+ * - Provide a clean API for UI + route protection
+ */
