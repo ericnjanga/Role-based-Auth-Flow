@@ -1,12 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## About this app
+Use case demonstrating the auth flow process with protected routes in the context of a Next.js application.
 
-This app cotains:
-
+### This app contains:
 - App router (Next.js routes)
 - Auth Store (auth state management with Zustand)
 - Protected routes
+- TailwindCSS (Rapid UI prototyping)
 
 ## Getting Started
 

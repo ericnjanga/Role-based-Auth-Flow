@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.global-header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
