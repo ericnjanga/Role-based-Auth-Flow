@@ -2,13 +2,16 @@ import Link from "next/link";
 
 export default function Dashboard() {
   return (
-    <main>
-      <h1>Orders</h1>
-
-      <hr />
+    <main className="flex flex-1 flex-col gap-4">
+      <h1 className="text-3xl font-semibold">Orders</h1>
+      <p className="text-zinc-600 dark:text-zinc-300">
+        This page also uses the shared root layout styling automatically.
+      </p>
 
       <p>
-        <Link href="/">Home</Link>
+        <Link className="underline underline-offset-4" href="/">
+          Home
+        </Link>
       </p>
     </main>
   );

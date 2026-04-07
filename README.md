@@ -4,9 +4,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 This app cotains:
 
-[x] App router (Next.js routes)
-[x] Auth Store (auth state management with Zustand)
-[x] Protected routes
+- App router (Next.js routes)
+- Auth Store (auth state management with Zustand)
+- Protected routes
 
 ## Getting Started
 

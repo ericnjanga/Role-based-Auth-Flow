@@ -24,21 +24,38 @@ function LoginPageContent() {
   };
 
   return (
-    <main>
-      <h1>Login</h1>
-      <button onClick={handleLogin}>Sign in</button>
-      <hr />
+    <main className="flex flex-1 flex-col justify-center gap-4">
+      <div className="space-y-2">
+        <h1 className="text-3xl font-semibold">Login</h1>
+        <p className="text-sm text-zinc-600 dark:text-zinc-300">
+          Sign in to access protected routes in the demo app.
+        </p>
+      </div>
 
-      <p>
-        <Link href="/">Return to home page</Link>
-      </p>
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
+        <button
+          onClick={handleLogin}
+          className="rounded-lg bg-zinc-900 px-4 py-2 text-white hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
+        >
+          Sign in
+        </button>
+        <Link className="text-sm underline underline-offset-4" href="/">
+          Return to home page
+        </Link>
+      </div>
     </main>
   );
 }
 
 export default function LoginPage() {
   return (
-    <Suspense fallback={<main><p>Loading login…</p></main>}>
+    <Suspense
+      fallback={
+        <main className="flex flex-1 items-center">
+          <p>Loading login…</p>
+        </main>
+      }
+    >
       <LoginPageContent />
     </Suspense>
   );
