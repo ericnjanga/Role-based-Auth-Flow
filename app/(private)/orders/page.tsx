@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Dashboard() {
   return (
-    <main className="flex flex-1 flex-col gap-4">
+    <main className="mx-auto flex max-w-5xl items-center justify-between gap-6">
       <h1 className="text-3xl font-semibold">Orders</h1>
       <p className="text-zinc-600 dark:text-zinc-300">
         This page also uses the shared root layout styling automatically.

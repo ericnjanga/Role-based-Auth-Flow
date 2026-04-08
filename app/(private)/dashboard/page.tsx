@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Dashboard() {
   return (
-    <main className="flex flex-1 flex-col gap-4">
+    <main className="mx-auto flex max-w-5xl items-center justify-between gap-6">
       <h1 className="text-3xl font-semibold">Dashboard</h1>
       <p className="text-zinc-600 dark:text-zinc-300">
         This protected page now inherits the shared shell from `app/layout.tsx`.
